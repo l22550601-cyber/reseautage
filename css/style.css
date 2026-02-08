@@ -1,0 +1,248 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #f4f7fb, #eef2f7);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 🔹 NAVBAR */
+
+.navbar {
+  background: #fff;
+  color: #222;
+  padding: 18px 0 14px 0;
+  text-align: center;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  border-bottom: 4px solid #d42a00;
+  border-radius: 0 0 18px 18px;
+  position: relative;
+  z-index: 10;
+  transition: box-shadow 0.3s;
+}
+
+.navbar h2 {
+  font-size: 2.1rem;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  margin: 0;
+  color: #d40000;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  text-shadow: 0 1px 0 #e0f7fa;
+}
+
+/* 🔹 LOGOS ORGANISATEURS */
+.organisateurs {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.organisateurs img {
+  width: 90px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.organisateurs img:hover {
+  transform: scale(1.1);
+}
+
+/* 🔹 PRÉSENTATION */
+.presentation {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.presentation h1 {
+  font-size: 38px;
+  color: #0d47a1;
+  margin-bottom: 15px;
+}
+
+.presentation p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+  color: #555;
+}
+
+/* 🔹 AFFICHE */
+.affiche {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.affiche img {
+  width: 85%;
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  transition: transform 0.4s ease;
+}
+
+.affiche img:hover {
+  transform: scale(1.03);
+}
+
+/* 🔹 PDF SECTION */
+.pdf-section {
+  background: #fff;
+  margin: 40px auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-section h2 {
+  margin-bottom: 20px;
+  color: #1976d2;
+}
+
+.pdf-section a {
+  display: block;
+  margin: 12px 0;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0d47a1;
+  transition: color 0.3s;
+}
+
+.pdf-section a:hover {
+  color: #ff9800;
+}
+
+/* 🔹 DOMAINES */
+.domaines {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #1976d2, #42a5f5);
+  color: #fff;
+}
+
+.domaines h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.domaines ul {
+  max-width: 700px;
+  margin: auto;
+  list-style: none;
+}
+
+.domaines li {
+  background: rgba(255, 255, 255, 0.15);
+  margin: 12px 0;
+  padding: 15px;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+}
+
+/* 🔹 BOUTON PROFILS */
+.btn-profils {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.btn-profils a {
+  background: linear-gradient(90deg, #ff9800, #ffb300);
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-profils a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* 🔹 FORMULAIRE */
+.formulaire {
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 35px;
+  border-radius: 25px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.formulaire h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #0d47a1;
+}
+
+.formulaire form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulaire input,
+.formulaire select {
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.formulaire button {
+  background: linear-gradient(90deg, #1976d2, #0d47a1);
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.formulaire button:hover {
+  transform: scale(1.03);
+  background: linear-gradient(90deg, #0d47a1, #1976d2);
+}
+
+/* 🔹 FOOTER */
+footer {
+  background: #fefefe;
+  color: #ff0000;
+  text-align: center;
+  padding: 20px 0 18px 0;
+  margin-top: 70px;
+  border-radius: 18px 18px 0 0;
+  box-shadow: 0 -2px 16px rgba(0,0,0,0.08);
+  font-size: 1.08rem;
+  letter-spacing: 1.2px;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  border-top: 4px solid #0055d4;
+}
+
+/*  RESPONSIVE */
+@media (max-width: 768px) {
+  .presentation h1 {
+    font-size: 28px;
+  }
+
+  .organisateurs {
+    justify-content: center;
+  }
+}

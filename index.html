@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journée de réseautage</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Background animé -->
+<canvas id="bg-anim" style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-1;"></canvas>
+
+<!-- 1️ NAVBAR -->
+<div class="navbar">
+  <h2>Journée de réseautage-KARA</h2>
+</div>
+
+<!-- 2️ LOGOS DES ORGANISATEURS (À GAUCHE) -->
+<div class="organisateurs">
+  <img src="assets/logos/WhatsApp Image 2026-02-05 at 16.07.50.jpeg" alt="OIF">
+  <img src="assets/logos/WhatsApp Image 2026-02-05 at 16.07.50 (1).jpeg" alt="D-CLIC">
+</div>
+
+<!-- 3️ TITRE + DESCRIPTION -->
+<div class="presentation">
+  <h1>Journée de réseautage D-CLIC</h1>
+  <p>
+    Cet événement vise à connecter les apprenants du programme D-CLIC
+    avec des entreprises, recruteurs et partenaires techniques.
+  </p>
+</div>
+
+<!-- 4️ AFFICHE DE L'ÉVÉNEMENT -->
+<section class="affiche">
+  <img src="./assets/images/affiche 1.jpeg" alt="Affiche de l'événement">
+</section>
+
+<!-- 5️PDF PROGRAMME & ACTIVITÉS -->
+<section class="pdf-section">
+  <h2>Documents pdf de l'événement</h2>
+
+  <a href="assets/pdf/programme.pdf" target="_blank"><i class="fa-solid fa-book fa-beat-fade" style="color: #e50606;"></i>Programme de l'événement</a>
+  <a href="assets/pdf/activites.pdf" target="_blank"><i class="fa-solid fa-book fa-beat-fade" style="color: #FFD43B;"></i> Activités de l'événement</a>
+</section>
+
+<!-- 6️ DOMAINES DE FORMATION -->
+<section class="domaines">
+  <h2>Domaines de formation</h2>
+  <ul>
+    <!-- <li>Communication digitale et marketing digital</li> -->
+    <li><strong>Développement web et mobile</strong></li>
+    <!-- <li>Data Analyst et protection des données</li> -->
+    <li><strong>Design graphique et fabrication numérique</strong></li>
+    <!-- <li>Intelligence Artificielle</li> -->
+  </ul>
+</section>
+
+<!-- 7️BOUTON VERS PROFILS -->
+<div class="btn-profils">
+  <a href="profils.html">Voir les profils des étudiants</a>
+</div>
+
+<!-- 8️ FORMULAIRE -->
+<section class="formulaire">
+  <h2>Formulaire de présence</h2>
+  <p style="color: rgba(5, 16, 164, 0.982); margin-bottom: 24px;">Remplissez ce formulaire pour confirmer votre présence à l'événement.</p>
+
+  <form id="infoForm">
+  <input type="text" id="nom" placeholder=" Nom et prénom" required>
+  <input type="email" id="email" placeholder="Adresse email" required>
+  <input type="tel" id="telephone" placeholder="Téléphone" required>
+
+  <select id="profil" required>
+    <option value="">Profil</option>
+    <option>Étudiant</option>
+    <option>Entrepreneur</option>
+    <option>Recruteur</option>
+    <option>Autres</option>
+  </select>
+
+  <input type="text" id="entreprise" placeholder="Nom de l'entreprise (facultatif)">
+
+  <button type="submit">Envoyer</button>
+</form>
+
+</section>
+
+<!-- 9️ FOOTER -->
+<footer>
+  <p>© 2026 – Journée de réseautage D-CLIC</p>
+</footer>
+<script src="./js/script.js"></script>
+</body>
+
+</html>
