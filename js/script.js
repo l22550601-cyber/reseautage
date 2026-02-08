@@ -1,35 +1,37 @@
-
-
-
-
-document.getElementById("infoForm").addEventListener("submit", function (e) {
+document.getElementById("whatsappForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
   const nom = document.getElementById("nom").value;
   const email = document.getElementById("email").value;
-  const telephone = document.getElementById("telephone").value;
+  const tel = document.getElementById("tel").value;
   const profil = document.getElementById("profil").value;
-  const entreprise = document.getElementById("entreprise").value || "Non précisé";
+  const entreprise = document.getElementById("entreprise").value || "Non précisée";
 
   const message = `
- Journée de réseautage D-CLIC
+ *Nouvelle présence – Journée de réseautage D-CLIC*
 
  Nom : ${nom}
  Email : ${email}
- Téléphone : ${telephone}
+ Téléphone : ${tel}
  Profil : ${profil}
-Entreprise : ${entreprise}
-  `;
+ Entreprise : ${entreprise}
+`;
 
-  /*  WHATSAPP */
-  const whatsappNumber = "22891529402"; //  mets ton numéro WhatsApp ici
-  const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-  window.open(whatsappURL, "_blank");
+  const whatsappLink =
+    "https://wa.me/?text=" + encodeURIComponent(message);
 
-  /*  EMAIL */
-  const emailURL = `mailto:creatorkb9@gmail.com?subject=Inscription Journée de réseautage&body=${encodeURIComponent(message)}`;
-  window.location.href = emailURL;
+  // Ouvre WhatsApp avec le message pré-rempli
+  window.open(whatsappLink, "_blank");
 
-  /*  RÉINITIALISATION DU FORMULAIRE */
+  // Redirige ensuite vers le groupe WhatsApp
+  setTimeout(() => {
+    window.location.href =
+      "https://chat.whatsapp.com/EJu4VT1OQQ5HFElVoMrCwO";
+  }, 1500);
+
+   /*  RÉINITIALISATION DU FORMULAIRE */
   this.reset();
 });
+
+
+ 
