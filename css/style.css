@@ -15,12 +15,12 @@ body {
 /* 🔹 NAVBAR */
 
 .navbar {
-  background: #fff;
-  color: #222;
+  background: #ffe60a;
+  color: #6101c0;
   padding: 18px 0 14px 0;
   text-align: center;
   box-shadow: 0 2px 16px rgba(0,0,0,0.07);
-  border-bottom: 4px solid #d42a00;
+  border-bottom: 4px solid #6101c0;
   border-radius: 0 0 18px 18px;
   position: relative;
   z-index: 10;
@@ -32,7 +32,7 @@ body {
   letter-spacing: 1.5px;
   font-weight: 800;
   margin: 0;
-  color: #d40000;
+  color: #6005ba;
   font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
   text-shadow: 0 1px 0 #e0f7fa;
 }
@@ -65,7 +65,7 @@ body {
 
 .presentation h1 {
   font-size: 38px;
-  color: #0d47a1;
+  color: #6101c0;
   margin-bottom: 15px;
 }
 
@@ -109,7 +109,7 @@ body {
 
 .pdf-section h2 {
   margin-bottom: 20px;
-  color: #1976d2;
+  color: #6101c0;
 }
 
 .pdf-section a {
@@ -117,7 +117,7 @@ body {
   margin: 12px 0;
   text-decoration: none;
   font-weight: bold;
-  color: #0d47a1;
+  color: #6101c0;
   transition: color 0.3s;
 }
 
@@ -128,7 +128,7 @@ body {
 /* 🔹 DOMAINES */
 .domaines {
   padding: 50px 20px;
-  background: linear-gradient(135deg, #1976d2, #42a5f5);
+  background: linear-gradient(135deg, #d2aa19, #e6f542);
   color: #fff;
 }
 
@@ -188,7 +188,7 @@ body {
 .formulaire h2 {
   text-align: center;
   margin-bottom: 25px;
-  color: #0d47a1;
+  color: #6101c0;
 }
 
 .formulaire form {
@@ -206,7 +206,7 @@ body {
 }
 
 .formulaire button {
-  background: linear-gradient(90deg, #1976d2, #0d47a1);
+  background: linear-gradient(90deg, #6101c0, #750da1);
   color: #fff;
   padding: 15px;
   border: none;
@@ -223,8 +223,8 @@ body {
 
 /* 🔹 FOOTER */
 footer {
-  background: #fefefe;
-  color: #ff0000;
+  background: #ffe60a;
+  color:#750da1;
   text-align: center;
   padding: 20px 0 18px 0;
   margin-top: 70px;
@@ -233,7 +233,7 @@ footer {
   font-size: 1.08rem;
   letter-spacing: 1.2px;
   font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
-  border-top: 4px solid #0055d4;
+  border-top: 4px solid #6101c0;
 }
 
 /*  RESPONSIVE */
