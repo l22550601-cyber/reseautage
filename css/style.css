@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* 🔹 NAVBAR */
+/*  NAVBAR */
 
 .navbar {
   background: #ffe60a;
@@ -37,7 +37,7 @@ body {
   text-shadow: 0 1px 0 #e0f7fa;
 }
 
-/* 🔹 LOGOS ORGANISATEURS */
+/*  LOGOS ORGANISATEURS */
 .organisateurs {
   display: flex;
   gap: 20px;
@@ -57,7 +57,7 @@ body {
   transform: scale(1.1);
 }
 
-/* 🔹 PRÉSENTATION */
+/* PRÉSENTATION */
 .presentation {
   text-align: center;
   padding: 50px 20px;
@@ -76,7 +76,7 @@ body {
   color: #555;
 }
 
-/* 🔹 AFFICHE */
+/*  AFFICHE */
 .affiche {
   display: flex;
   justify-content: center;
@@ -95,7 +95,7 @@ body {
   transform: scale(1.03);
 }
 
-/* 🔹 PDF SECTION */
+/*  PDF SECTION */
 .pdf-section {
   background: #fff;
   margin: 40px auto;
@@ -125,7 +125,7 @@ body {
   color: #ff9800;
 }
 
-/* 🔹 DOMAINES */
+/*  DOMAINES */
 .domaines {
   padding: 50px 20px;
   background: linear-gradient(135deg, #7705b9, #a84eac);
@@ -152,7 +152,7 @@ body {
   backdrop-filter: blur(5px);
 }
 
-/* 🔹 BOUTON PROFILS */
+/*  BOUTON PROFILS */
 .btn-profils {
   text-align: center;
   margin: 50px 0;
@@ -174,7 +174,7 @@ body {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
 }
 
-/* 🔹 FORMULAIRE */
+/*  FORMULAIRE */
 .formulaire {
   background: #fff;
   width: 90%;
@@ -221,7 +221,7 @@ body {
   background: linear-gradient(90deg, #0d47a1, #1976d2);
 }
 
-/* 🔹 FOOTER */
+/*  FOOTER */
 footer {
   background: #ffe60a;
   color:#750da1;
@@ -236,7 +236,7 @@ footer {
   border-top: 4px solid #6101c0;
 }
 
-/*  RESPONSIVE */
+/*  res */
 @media (max-width: 768px) {
   .presentation h1 {
     font-size: 28px;
